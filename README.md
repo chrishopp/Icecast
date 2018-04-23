@@ -16,19 +16,27 @@ CentOS (centos-release-7.4.1708.e17.centos.x64_64 last tested)
   b. Set the root password and create a user. It is not recomended or neccessary that the user have root access. The script does not depend on any specific username. You will need the root password while running the installation script.  
   c. Navigate the maze to accepting the CentOS EULA.  
   d. Run an initial system update
+  
     ```
     su -c 'yum update'
     ```
+    
   e. Download installicecast.sh file or fetch install script
+  
     ```
     wget https://raw.githubusercontent.com/chrishopp/Icecast/master/CentOS7/installicecast.sh
     ```
+    
   f. Allow executing of file as program
+  
     ```
     chmod +x installicecast.sh
     ```
+    
   g. Execute the script
+  
     ```
     ./installicecast.sh
     ```
+    
   h. Follow prompts.
