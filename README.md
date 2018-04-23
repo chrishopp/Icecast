@@ -18,17 +18,17 @@ CentOS (centos-release-7.4.1708.e17.centos.x64_64 last tested)
   d. Run an initial system update
     ```
     su -c 'yum update'
-    ```    
+    ```
   e. Download installicecast.sh file or fetch install script
     ```
     wget https://raw.githubusercontent.com/chrishopp/Icecast/master/CentOS7/installicecast.sh
-    ```  
+    ```
   f. Allow executing of file as program
     ```
     chmod +x installicecast.sh
-    ```  
+    ```
   g. Execute the script
     ```
     ./installicecast.sh
-    ```  
+    ```
   h. Follow prompts.
