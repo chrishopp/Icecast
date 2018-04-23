@@ -31,4 +31,4 @@ chmod +x installicecast.sh
 ```
 ./installicecast.sh
 ```
-h. Follow prompts.
+9. Follow prompts.
