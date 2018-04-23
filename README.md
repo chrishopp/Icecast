@@ -17,18 +17,18 @@ CentOS (centos-release-7.4.1708.e17.centos.x64_64 last tested)
   c. Navigate the maze to accepting the CentOS EULA.  
   d. Run an initial system update
   Run
-  su -c 'yum update'  
+    su -c 'yum update'  
   
   e. Download installicecast.sh file or fetch install script
   Run
-  wget https://raw.githubusercontent.com/chrishopp/Icecast/master/CentOS7/installicecast.sh  
+    wget https://raw.githubusercontent.com/chrishopp/Icecast/master/CentOS7/installicecast.sh  
   
   f. Allow executing of file as program
   Run
-  chmod +x installicecast.sh  
+    chmod +x installicecast.sh  
   
   g. Execute the script
   Run
-  ./installicecast.sh  
+    ./installicecast.sh  
   
   h. Follow prompts.
