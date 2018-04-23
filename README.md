@@ -15,8 +15,20 @@ CentOS (centos-release-7.4.1708.e17.centos.x64_64 last tested)
   a. Under Software Selection, choose Server with GUI. No additional options are required at this time. Development Tools and other items will be installed with the script. If you wish to install a shell only version you'll need to edit the script to use vi (or your prefered shell text editor) instead of gedit. You'll also need to be familiar with downloading and moving files using only shell commands.  
   b. Set the root password and create a user. It is not recomended or neccessary that the user have root access. The script does not depend on any specific username. You will need the root password while running the installation script.  
   c. Navigate the maze to accepting the CentOS EULA.  
-  d. Run an initial system update, # su -c 'yum update'  
-  e. Download installicecast.sh file or fetch install script, # wget https://raw.githubusercontent.com/chrishopp/Icecast/master/CentOS7/installicecast.sh  
-  f. Allow executing of file as program, # chmod +x installicecast.sh  
-  g. Execute the script, # ./installicecast.sh  
+  d. Run an initial system update
+  Run
+  su -c 'yum update'  
+  
+  e. Download installicecast.sh file or fetch install script
+  Run
+  wget https://raw.githubusercontent.com/chrishopp/Icecast/master/CentOS7/installicecast.sh  
+  
+  f. Allow executing of file as program
+  Run
+  chmod +x installicecast.sh  
+  
+  g. Execute the script
+  Run
+  ./installicecast.sh  
+  
   h. Follow prompts.
