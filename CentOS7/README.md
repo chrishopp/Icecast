@@ -13,7 +13,7 @@ wget https://raw.githubusercontent.com/chrishopp/Icecast/master/CentOS7/installi
 ```
 7. Allow executing of file as program
 ```
-chmod +x installicecast.sh
+chmod +x ./installicecast.sh
 ```
 8. Execute the script
 ```
