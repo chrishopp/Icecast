@@ -48,7 +48,7 @@ yum -y install openssh-server
 su root
 sudo gedit /etc/rc.d/rc.local
 ```
-Add lines
+Append lines
 ```
 su -l $USER -c '/usr/local/bin/icecast -c /usr/local/etc/icecast.xml &'
 exit 0
