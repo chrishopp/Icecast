@@ -45,13 +45,28 @@ su -c 'yum -y update'
 ```
 
 ## Useful Extras
-OpenVMTools
+### OpenVMTools
 ```
 yum -y install open-vm-tools
 ```
-SSH Server
+### SSH Server
 ```
 yum -y install openssh-server
 ```
-Autostart Icecast on system start using rc.local (replace $USER with desired username)
+### Autostart Icecast on system start using rc.local
 ```
+su root
+sudo gedit /etc/rc.d/rc.local
+```
+Add lines
+```
+su -l $USER -c '/usr/local/bin/icecast -c /usr/local/etc/icecast.xml &'
+exit 0
+```
+Ensure file has run permissions
+```
+chmod +x /etc/rc.d/rc.local
+```
+Replace $USER with desired username.
+### Make sure ethernet enabled on boot
+https://wiki.centos.org/FAQ/CentOS7 bullet point 2
