@@ -21,6 +21,16 @@ chmod +x ./installicecast.sh
 ```
 8. Follow prompts.
 ## Useful Extras (not completly documented)
+### Security updates only (see https://help.ubuntu.com/community/AutomaticSecurityUpdates)
+This function mostly prevents software updates from breaking dependencies. This doesn't seem to be a problem with an Icecast only server, but it is a major problem for an encoder machine that uses audio drivers.
+```
+sudo apt-get install unattended-upgrades
+dpkg-reconfigure --priority=low unattended-upgrades
+```
+This will turn on automatic, security only, updates. I will not automatically reboot the machine. If you don't run the 2nd line (dpkg-reconfigure) you can manually get security only updates by:
+```
+sudo unattended-upgrade -d
+```
 ### OpenVMTools
 ```
 sudo apt-get install open-vm-tools-desktop
