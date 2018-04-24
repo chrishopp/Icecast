@@ -9,5 +9,5 @@ This guide is meant as a basic starting point to setup an Icecast streaming serv
 3. These instructions will get a basic Icecast server up and running. Proper setup of the icecast.xml configuration file is currently outside the scope of this guide. The latest documentation of Icecast can be found at https://icecast.org/docs/icecast-latest.
 
 ## Current OSs - see subfolders for OS specific readme
-1. CentOS
-2. Lubuntu
+1. [CentOS](https://github.com/chrishopp/Icecast/tree/master/CentOS7)
+2. [Lubuntu](https://github.com/chrishopp/Icecast/tree/master/Lubuntu16LTS)
