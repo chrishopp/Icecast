@@ -48,7 +48,7 @@ yum -y install openssh-server
 su root
 sudo gedit /etc/rc.d/rc.local
 ```
-Append lines
+Append lines (Replace $USER with desired username.)
 ```
 su -l $USER -c '/usr/local/bin/icecast -c /usr/local/etc/icecast.xml &'
 exit 0
@@ -57,6 +57,5 @@ Ensure file has run permissions
 ```
 chmod +x /etc/rc.d/rc.local
 ```
-Replace $USER with desired username.
 ### Make sure ethernet enabled on boot
 https://wiki.centos.org/FAQ/CentOS7 bullet point 2
