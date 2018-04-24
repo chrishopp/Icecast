@@ -1,5 +1,5 @@
 # Lubuntu (Ubuntu 16.04.4 LTS last tested) (Lubuntu 16.04 LTS)
-1. Install Lubuntu with preffered options, see next 2 items.
+1. Install Lubuntu with preferred options, see next 2 items.
 2. Do not "install third-party software for graphics..." at this time. Required items will be installed with the script.
 3. Log in automatically not required, but is ok to use depending on desired security.
 4. Run an initial system update
@@ -20,7 +20,7 @@ chmod +x ./installicecast.sh
 ./installicecast.sh
 ```
 8. Follow prompts.
-## Useful Extras (not completly documented)
+## Useful Extras (not completely documented)
 ### Security updates only (see https://help.ubuntu.com/community/AutomaticSecurityUpdates)
 This function mostly prevents software updates from breaking dependencies. This doesn't seem to be a problem with an Icecast only server, but it is a major problem for an encoder machine that uses audio drivers.
 ```
@@ -89,7 +89,7 @@ Mount to test things out
 ```
 sudo mount -a
 ```
-### Create rsync file for transfering local icecast logs to a remote directory
+### Create rsync file for transferring local icecast logs to a remote directory
 ```
 sudo leafpad /etc/cron.daily/rsynclogs
 ```
