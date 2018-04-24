@@ -1,7 +1,7 @@
 # CentOS (centos-release-7.4.1708.e17.centos.x64_64 last tested)
-1. Install CentOS 7 with your preffered options
-2. Under Software Selection, choose Server with GUI. No additional options are required at this time. Development Tools and other items will be installed with the script. If you wish to install a shell only version you'll need to edit the script to use vi (or your prefered shell text editor) instead of gedit. You'll also need to be familiar with downloading and moving files using only shell commands.
-3. Set the root password and create a user. It is not recomended or neccessary that the user have root access. The script does not depend on any specific username. You will need the root password while running the installation script.
+1. Install CentOS 7 with your preferred options
+2. Under Software Selection, choose Server with GUI. No additional options are required at this time. Development Tools and other items will be installed with the script. If you wish to install a shell only version you'll need to edit the script to use vi (or your preferred shell text editor) instead of gedit. You'll also need to be familiar with downloading and moving files using only shell commands.
+3. Set the root password and create a user. It is not recommended or necessary that the user have root access. The script does not depend on any specific username. You will need the root password while running the installation script.
 4. Navigate the maze to accepting the CentOS EULA.
 5. Run an initial system update
 ```
@@ -57,5 +57,5 @@ Ensure file has run permissions
 ```
 chmod +x /etc/rc.d/rc.local
 ```
-### Make sure ethernet enabled on boot
+### Make sure Ethernet enabled on boot
 https://wiki.centos.org/FAQ/CentOS7 bullet point 2
