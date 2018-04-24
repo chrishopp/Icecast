@@ -13,9 +13,9 @@ cd /home/$USER/Icecast
 wget http://downloads.xiph.org/releases/icecast/icecast-2.4.3.tar.gz
 tar xvf icecast-2.4.3.tar.gz
 cd icecast-2.4.3
-echo "Please enter the root password to install Icecast dependancy packages."
-su root -c 'sudo yum group install "Development Tools"
-sudo yum install libxslt-devel libvorbis-devel curl-devel openssl-devel wget nano mailcap
+echo "Please enter the root password to install Icecast dependency packages."
+su root -c 'sudo yum -y group install "Development Tools"
+sudo yum -y install libxslt-devel libvorbis-devel curl-devel openssl-devel wget nano mailcap
 sudo ./configure --with-curl --with-openssl --with-vorbis --with-ogg
 make
 sudo make install
