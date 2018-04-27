@@ -11,3 +11,9 @@ This guide is meant as a basic starting point to setup an Icecast streaming serv
 ## Current OSs - see subfolders for OS specific readme
 1. [CentOS](https://github.com/chrishopp/Icecast/tree/master/CentOS7)
 2. [Lubuntu](https://github.com/chrishopp/Icecast/tree/master/Lubuntu16LTS)
+
+## Coming Up
+1. Audio Encoder install on Lubuntu
+2. Lubuntu install updated to 18.04.1 LTS (pending 18.04.1 release)
+3. Commenting and documentation of install scripts
+4. Shell only guide and hints
