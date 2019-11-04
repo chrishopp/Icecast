@@ -43,8 +43,20 @@ sudo apt-get install openssh-server
 ```
 sudo leafpad /etc/rc.local
 ```
-Append lines (Replace $USER with desired username.)
+make file content (Replace $USER with desired username.)
 ```
+#!/bin/sh -e
+#
+# rc.local
+#
+# This script is executed at the end of each multiuser runlevel.
+# Make sure that the script will "exit 0" on success or any other
+# value on error.
+#
+# In order to enable or disable this script just change the execution
+# bits.
+#
+# By default this script does nothing.
 su -l $USER -c '/usr/local/bin/icecast -c /usr/local/etc/icecast.xml &'
 exit 0
 ```
