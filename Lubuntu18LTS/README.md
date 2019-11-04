@@ -111,6 +111,7 @@ Move rsynclogs (unclear what this was for as of writing, currently untested)
 sudo chown $USER:root /etc/cron.daily/rsynclogs
 sudo chmod +x 0770 /etc/cron.daily/rsynclogs
 chmod /etc/cron.daily/rsynclogs
+```
 ### Graphical Firewall
 ```
 sudo apt-get install gufw
