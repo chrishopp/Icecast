@@ -15,7 +15,7 @@ wget http://downloads.xiph.org/releases/icecast/icecast-2.4.4.tar.gz
 tar xvf icecast-2.4.4.tar.gz
 cd icecast-2.4.4
 echo "Please enter the root password to install Icecast dependency packages."
-sudo apt-get -y install libcurl4-openssl-dev libxslt1-dev libxml2-dev libogg-dev libvorbis-dev libflac-dev libtheora-dev libssl-dev build-essential
+sudo apt-get -y install libcurl4-openssl-dev libxslt1-dev libxml2-dev libogg-dev libvorbis-dev libflac-dev libtheora-dev libssl-dev build-essential libpthread-stubs0-dev gawk
 ./configure --with-curl --with-openssl --with-vorbis --with-ogg
 sudo make
 sudo make install
